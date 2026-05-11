@@ -1,0 +1,14 @@
+{
+  "n_documents": 209527,
+  "tfidf_shape": [
+    209527,
+    50000
+  ],
+  "embedding_shape": [
+    209527,
+    300
+  ],
+  "embedding_dim": 300,
+  "glove_version": "6B.300d",
+  "timestamp": "2026-05-08T17:52:46.421106"
+}

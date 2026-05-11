@@ -1,0 +1,42 @@
+# ── Python Artifacts ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+
+# ── Virtual Environments ──
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ── Large Data / Cache (DO NOT COMMIT) ──
+data/*.npz
+data/*.pkl
+data/*.csv
+glove.*.txt
+
+# ── Generated Outputs ──
+results/*.png
+results/*.jpg
+results/*.pdf
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+
+# ── Environment ──
+.env
+.env.local
